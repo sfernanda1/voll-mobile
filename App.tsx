@@ -1,13 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { NativeBaseProvider } from 'native-base/lib/typescript/core';
+
+import { NativeBaseProvider, StatusBar } from 'native-base';
 import { TEMAS } from './src/estilos/tema';
-import Login from './src/login';
+import Cadastro from './src/cadastro';
 
 export default function App() {
   return (
     <NativeBaseProvider theme={TEMAS}>
       <StatusBar backgroundColor={TEMAS.colors.blue[800]}/>
-         <Login />
+         <Cadastro />
     </ NativeBaseProvider>
   );
 }
