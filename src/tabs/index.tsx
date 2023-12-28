@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Principal from "./principal";
 import Consultas from "./consultas";
 import Ionicons from 'react-native-vector-icons/Ionicons'
-import Explorar from "./Explorar";
+import Explorar from "./explorar";
 import Perfil from "./perfil";
 
 const Tab = createBottomTabNavigator()
